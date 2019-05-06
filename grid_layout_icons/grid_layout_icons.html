@@ -42,13 +42,45 @@
                         <img class="firefighter-img" src="../images/firefighting-icon.png" alt=""/>
                     </div>
                     <div class="ui-block-c">
-                        <img class="firefighter-img" src="../images/firefighting-icon.png" alt=""/>
+                        <a href="#substructure-container" data-transition="pop">
+                            <img class="firefighter-img" src="../images/firefighting-icon.png" alt=""/>
+                        </a>
                     </div>
                 </div>
             </div>
             <div data-role="popup" id="firefighter-info" class="ui-content" data-theme="a">
                 <p>Name: John Doe</p>
                 <p>Contact details: john.doe@gmail.com</p>
+            </div>
+        </div>
+        
+        <!-- Sub-structure -->
+        <div id="substructure-container" data-role="page" data-dialog="true">
+            <div class="ui-content">
+                <!-- Main grid container -->
+                <div class="ui-grid-b">
+                    <div class="ui-block-a"></div>                    
+                    <div class="ui-block-b">
+                        <a href="#firefighter-substructure-info" data-rel="popup" data-transition="pop" 
+                           title="Firefighter info">
+                            <img class="firefighter-img" src="../images/firefighting-icon.png" alt=""/>
+                        </a>
+                    </div>
+                    <div class="ui-block-c"></div>
+                    <div class="ui-block-a">
+                        <img class="firefighter-img" src="../images/firefighting-icon.png" alt=""/>
+                    </div>
+                    <div class="ui-block-b">
+                        <img class="firefighter-img" src="../images/firefighting-icon.png" alt=""/>
+                    </div>
+                    <div class="ui-block-c">
+                        <img class="firefighter-img" src="../images/firefighting-icon.png" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div data-role="popup" id="firefighter-substructure-info" class="ui-content" data-theme="a">
+                <p>Name: Foo Bar</p>
+                <p>Contact details: foo.bar@gmail.com</p>
             </div>
         </div>
     </body>
